@@ -1,7 +1,1 @@
-<script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
-<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
-
-<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
-
-<script src="index.js" type="text/babel"></script>
-
+https://scrimba.com/learn/learnreact/goodbye-cdns-co3534f23a33055e384eb5be5
