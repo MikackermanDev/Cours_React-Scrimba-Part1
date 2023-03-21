@@ -1,39 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-const page = (
+const page1 = (
 	<div>
-		<h1>Mon super site</h1>
-		<h3>Pourquoi j'aime React</h3>
-		<ol>
-			<li>J'ai pas trop le choix dans ce tuto </li>
-			<li>C'est des composants</li>
-			<li>C'est déclarative</li>
-			<li>Employabilité élevée</li>
-		</ol>
+		<img src="/assets/img/react-logo.png" width="40px" alt="LogoReact"></img>
+		<h1>Encore une page</h1>
 	</div>
 );
 
-// 1er écriture
-ReactDOM.render(page, document.getElementById("root2"));
-
-//2nd ecriture
-//document.getElementById("root").append(JSON.stringify(page));
-
-const navbar = (
-	<nav>
-		<h3>GPU DataBase</h3>
-		<ul>
-			<li>4090</li>
-			<li>4080</li>
-			<li>4070 Ti</li>
-		</ul>
-	</nav>
-);
-
-// 1ere écriture
-const route = ReactDOM.createRoot(document.getElementById("root1"));
-route.render(navbar);
-
-// 2nd écriture
-// ReactDOM.createRoot(document.getElementById("root")).render(navbar);
+const route1 = ReactDOM.createRoot(document.getElementById("root1"));
+route1.render(page1);
