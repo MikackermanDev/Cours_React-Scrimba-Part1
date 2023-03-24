@@ -1,4 +1,4 @@
-function MainContent() {
+export default function MainContent() {
 	return (
 		<>
 			<h2>best gpu</h2>
@@ -11,5 +11,3 @@ function MainContent() {
 		</>
 	);
 }
-
-export default MainContent;
