@@ -3,3 +3,6 @@ body {
 	padding: 10;
 	/* background-color: aqua; */
 }
+.nav-items {
+	list-style: none;
+}

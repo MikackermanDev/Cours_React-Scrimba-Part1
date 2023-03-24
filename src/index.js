@@ -1,26 +1,51 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import imgMenu from "./assets/img/logoMenu.png";
 
-const page1 = (
-	<div>
-		<img src={imgMenu} width="40px" alt="logoMenu" />
-		<br />
-		<img src={`/logoreact.png`} width="40px" alt="logo1" />
+function Header() {
+	return (
+		<header>
+			<nav>
+				<img src="logoReact.png" width="60px" alt="" />
+				<ul className="nav-items">
+					<li>Pricing</li>
+					<li>About</li>
+					<li>Contact</li>
+				</ul>
+			</nav>
+		</header>
+	);
+}
 
-		<h1>Fun facts about React</h1>
-		<ul>
-			<li>Was first release in 2013</li>
-			<li>Was originally created by Jordan Walke</li>
-			<li>ligne 3</li>
-			<li>ligne 4</li>
-			<li>
-				Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae,
-				recusandae.
-			</li>
-		</ul>
-	</div>
-);
+function MainContent() {
+	return (
+		<>
+			<h2>best gpu</h2>
+			<ol>
+				<li>rtx 4090</li>
+				<li>rx 7900XTX</li>
+				<li>rtx 4080</li>
+				<li>rx 7900XT</li>
+			</ol>
+		</>
+	);
+}
+function Footer() {
+	return (
+		<footer>
+			<small>@2023 Mikackerman development. All rights reserved.</small>
+		</footer>
+	);
+}
+
+function Page1() {
+	return (
+		<>
+			<Header />
+			<MainContent />
+			<Footer />
+		</>
+	);
+}
 
 const route1 = ReactDOM.createRoot(document.getElementById("root1"));
-route1.render(page1);
+route1.render(<Page1 />);
