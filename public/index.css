@@ -1,0 +1,23 @@
+body {
+	margin: 10;
+	padding: 10;
+	/* background-color: aqua; */
+}
+
+.nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: rgb(0, 150, 0, 30%);
+}
+
+.nav-items {
+	list-style: none;
+	display: flex;
+}
+
+.nav-items > li {
+	padding: 10px;
+	background-color: rgb(100, 100, 200, 70%);
+	color: whitesmoke;
+}

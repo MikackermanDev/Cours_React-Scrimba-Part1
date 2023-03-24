@@ -4,7 +4,7 @@ import ReactDOM from "react-dom";
 function Header() {
 	return (
 		<header>
-			<nav>
+			<nav className="nav">
 				<img src="logoReact.png" width="60px" alt="" />
 				<ul className="nav-items">
 					<li>Pricing</li>
